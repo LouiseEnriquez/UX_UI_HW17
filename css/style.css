@@ -1,0 +1,118 @@
+body, html{
+margin: 0;
+padding: 0;
+height: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(65, 182, 42);
+  }
+<ul>
+  <li><a href="#work">Work</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#aboutme">AboutMe</a></li>
+  <li><a href="#connect">Connect</a></li>
+  <li style="float:right"><a class=":active" href="#resume">Resume</a></li>
+</ul>
+
+header{
+padding: 50px;
+background-color:brown;
+}
+
+
+section img{
+width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;font-size: medium;
+    padding: 50px;
+}
+    
+p{
+    text-align: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;font-size: medium;
+    padding: 50px;
+}
+
+form{
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 100px;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 100px;
+        margin-top: 6px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+footer {
+padding: 50px;
+background-color: darkolivegreen;
+}
