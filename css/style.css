@@ -4,33 +4,32 @@ padding: 0;
 height: 200px;
 }
 ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgb(65, 182, 42);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(26, 218, 51);
+}
+
 <ul>
-
-
-  <li><a href="#work">Work</a></li>
+ <li><a href="#work">Work</a></li>
   <li><a href="#skills">Skills</a></li>
   <li><a href="#aboutme">AboutMe</a></li>
   <li><a href="#connect">Connect</a></li>
@@ -39,7 +38,7 @@ ul {
 
 header{
 padding: 50px;
-background-color:brown;
+background-color: brown;
 }
 
 
