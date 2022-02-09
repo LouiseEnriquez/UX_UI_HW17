@@ -32,12 +32,13 @@ li a:hover {
 
 header{
 padding: 50px;
+margin: 20px;
 background-color: brown;
 }
 
 
 section img{
-width: 100%;
+width: 50%;
 }
 
 
@@ -47,7 +48,9 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;font-size: medium;
     padding: 50px;
 }
-    
+section img{
+width: 50%;
+}
 p{
     text-align: center;
     text-align: justify;
